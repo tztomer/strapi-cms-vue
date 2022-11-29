@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_see_project_privews",
+  "info": {
+    "displayName": "Project Privew",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "projectName": {
+      "type": "string"
+    },
+    "projectFor": {
+      "type": "string"
+    }
+  }
+}
