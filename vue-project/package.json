@@ -1,0 +1,33 @@
+{
+	"name": "vue-project",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test:unit": "vitest --environment jsdom --root src/"
+	},
+	"dependencies": {
+		"@apollo/client": "^3.7.1",
+		"@vue/apollo-composable": "^4.0.0-beta.1",
+		"apollo-boost": "^0.4.9",
+		"apollo-cache-inmemory": "^1.6.6",
+		"apollo-client": "^2.6.10",
+		"apollo-link": "^1.2.14",
+		"apollo-link-http": "^1.5.17",
+		"graphql": "^15.8.0",
+		"graphql-tag": "^2.12.6",
+		"vue": "^3.2.45",
+		"vue-apollo": "^3.1.0",
+		"vue-router": "^4.1.6"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^3.2.0",
+		"@vue/test-utils": "^2.2.4",
+		"jsdom": "^20.0.3",
+		"sass": "^1.56.1",
+		"vite": "^3.2.4",
+		"vitest": "^0.25.3"
+	}
+}

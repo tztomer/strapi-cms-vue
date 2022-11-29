@@ -1,0 +1,24 @@
+body,
+#app {
+ margin: $marging0;
+ padding: $padd0;
+ height: $h100vh;
+ box-sizing: border-box;
+ width: $w100vw;
+ height: $h100vh;
+ // & .container {
+
+ overflow-x: hidden;
+ // }
+ .inner-wrapper {
+  max-width: 1480px;
+  width: 100%;
+
+  max-width: 1480px;
+  width: 100%;
+  padding: 0px min(20%, 60px) 0 min(20%, 60px);
+  margin-inline: auto;
+  height: fit-content;
+  box-sizing: content-box;
+ }
+}
